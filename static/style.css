@@ -1,6 +1,6 @@
 body {
     font-family: Segoe UI;
-    font-size: 140%;
+    font-size: 170%;
 }
 a {
     color: black;
@@ -10,12 +10,17 @@ a {
 a:hover {
     color: blue;
 }
+.mini {
+    width: 30%;
+    height: 60%;
+}
 .big_img {
     width: 100%;
     height: 500pt;
     position: relative;
     background: url(https://sun9-35.userapi.com/impg/AF8qxdFs-4t310Edhv9PrWWw5Jj6IQWezDj7wQ/IT9tBYNYGHg.jpg?size=687x529&quality=96&sign=88b2302569e9f2c31d21afc94eddc641&type=album);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .navigator {
     padding: 10px;
@@ -23,6 +28,6 @@ a:hover {
     position: absolute;
 	top: 200px;
 	left: 0;
-	width: 15%;
+	width: 30%;
 	margin-left: 1%;
 }
